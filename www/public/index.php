@@ -15,7 +15,8 @@ try { //Otra opción con un manejador de excepciones: https://stackoverflow.com/
             [
                 'message' => $e->getMessage(),
                 'trace'   => $e->getTraceAsString()
-            ]);
+            ]
+        );
     }
 }
 
